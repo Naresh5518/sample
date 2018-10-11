@@ -16,8 +16,13 @@ class ViewController: UIViewController {
         print("naresh")
     }
     func addNo() {
-        var a = 10,b = 12
-        var c = a+b
+        let a = 10,b = 12
+        let c = a+b
+        print(c)
+    }
+    func mulNo() {
+        let a = 10,b = 12
+        let c = a*b
         print(c)
     }
 
